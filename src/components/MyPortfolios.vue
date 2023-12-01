@@ -40,6 +40,7 @@
 <style scoped>
 div.portfolio-content{
     text-align: center;
+    
 }
 span{
     font-weight: 600;

@@ -69,6 +69,7 @@ import MyPortfolios from "./components/MyPortfolios.vue";
 import AppBar from "./components/AppBar.vue";
 import sellphoneReadme from './assets/sellphoneReadme.pdf';
 import goryeo from './assets/goryeo.pdf';
+import eleven from './assets/eleven.png'
 
 export default {
   data() {
@@ -124,8 +125,8 @@ export default {
         기본적인 Vue.js를 학습하고, 배운내용을 복습 및 활용해보기 위해 제작해보았습니다.<br>
         추가로 netlify를 통해 배포까지 진행하였습니다.
         `,
-        readmeUrl: '/assets/열일중이었어요.png' ,
-        repositoryUrl: "",
+        readmeUrl: eleven ,
+        repositoryUrl: "https://github.com/choliea/portfolio",
       },
       portfolio4: {
         title: "Goguryeo Hotel",
@@ -255,15 +256,14 @@ ul {
   width: 40%;
   height: 40%;
   margin: 50px;
+   background-color: rgb(255, 234, 0);
 }
-#danaga {
-  background-color: rgb(255, 234, 0);
-}
-/* .project:hover {
-  width: 70%;
-  height: 90%;
+
+.project:hover {
+  width: 45%;
+  height: 100%;
 }
 .project:hover .description {
   font-size: x-large;
-} */
+}
 </style>
