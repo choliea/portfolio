@@ -43,12 +43,12 @@
         :portfolio="portfolio2"
         @openReadme="changeState"
       ></MyPortfolios>
-      <MyPortfolios
+      <!-- <MyPortfolios
         id="portfolio"
         class="project"
         :portfolio="portfolio3"
         @openReadme="changeState"
-      ></MyPortfolios>
+      ></MyPortfolios> -->
       <MyPortfolios
         id="goryeo"
         class="project"
@@ -80,7 +80,7 @@ export default {
       popstate: false,
       portfolio1: {
         title: "Danaga",
-        day: "2023.10.~ 2023.11. (1개월) By Team.Avengers",
+        day: "2023.10.~ 2023.11. (1개월) By Team",
         projectImgUrl: "danaga.png",
         description: `
           <p>전자제품 판매 사이트 다나와를 레퍼런스한 웹 사이트입니다.<br>
@@ -99,7 +99,7 @@ export default {
       },
       portfolio2: {
         title: "SellPhone",
-        day: "2023.08.18. ~ 2023.08.25. (1주일) By Team.",
+        day: "2023.08.18. ~ 2023.08.25. (1주일) By Team",
         projectImgUrl: "sellphone.png",
         description: `
         <p>휴대폰 판매 사이트 첫 웹 사이트 프로젝트입니다.<br>
@@ -129,7 +129,7 @@ export default {
       },
       portfolio4: {
         title: "Goguryeo Hotel",
-        day:"2023.07.14. ~ 2023.07.25. (12일) By Team.오졌죠",
+        day:"2023.07.14. ~ 2023.07.25. (12일) By Team",
         projectImgUrl: 'goryeo.png',
         description: `
           <p>
