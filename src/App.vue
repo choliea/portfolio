@@ -183,6 +183,25 @@ export default {
 <style>
 @import "assets/css/fonts.css";
 
+.project {
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  border-radius: 20px;
+  width: 45%;
+  height: 40%;
+  margin: 10px;
+   background-color: rgb(255, 234, 0);
+
+}
+
+.project:hover {
+  widows: 50%;
+  height: 100%;
+}
+.project:hover .description {
+  font-size: x-large;
+}
 @media only screen and (max-width: 600px) {
       #hometext > #homep {
         font-size: 13px;
@@ -190,6 +209,19 @@ export default {
       #hometext header {
         margin-top :50px;
       }
+      .project {
+  
+  width: 100%;
+  height: 40%;
+
+}
+
+.project:hover {
+  widows: 100%;
+}
+.project:hover .description {
+  font-size: large;
+}
     }
 body {
   margin: 0;
@@ -254,23 +286,5 @@ ul {
   color: beige;
 }
 
-.project {
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
-  /* margin-left: 10%; */
-  /* margin-right: 10%; */
-  border-radius: 20px;
-  width: 45%;
-  height: 40%;
-  margin: 10px;
-   background-color: rgb(255, 234, 0);
 
-}
-
-.project:hover {
-  width: 45%;
-  height: 100%;
-}
-.project:hover .description {
-  font-size: x-large;
-}
 </style>
