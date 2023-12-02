@@ -25,9 +25,6 @@
     <div class="contents" id="aboutme">
       <AboutMe></AboutMe>
     </div>
-    <div class="contents" id="skill">
-      <MySkills></MySkills>
-    </div>
     <div class="contents" id="project">
       <header class="title">Projects</header>
       <div class="row">
@@ -57,6 +54,9 @@
       ></MyPortfolios>
       </div>
     </div>
+    <div class="contents" id="skill">
+      <MySkills></MySkills>
+    </div>
   </div>
 </template>
 
@@ -80,11 +80,11 @@ export default {
       popstate: false,
       portfolio1: {
         title: "Danaga",
-        day: "2023.10.~ 2023.11. (1개월) By Team",
+        day: "2023.10.~ 2023.11. By Team",
         projectImgUrl: "danaga.png",
         description: `
           <p>전자제품 판매 사이트 다나와를 레퍼런스한 웹 사이트입니다.<br>
-          아이티윌 자바 백엔드 과정의 마지막 프로젝트로 실무에서 가장 많이 요구되어지는 형태인 쇼핑몰을 선택했고, <br>
+          실무에서 가장 많이 요구되어지는 형태인 쇼핑몰을 선택했고, <br>
           그중에서도 다른 일반 상품과 달리 데이터를 다루는데 조금 더 많은 고민이 필요하다고 생각되는 전자제품을 선택하게 되었습니다. <br>
           저는 Product 파트를 맡았고, 제품 검색 기능, 최근 본 상품, 관심상품 서비스를 구현하였습니다. </p>
           
@@ -99,7 +99,7 @@ export default {
       },
       portfolio2: {
         title: "SellPhone",
-        day: "2023.08.18. ~ 2023.08.25. (1주일) By Team",
+        day: "2023.08. By Team",
         projectImgUrl: "sellphone.png",
         description: `
         <p>휴대폰 판매 사이트 첫 웹 사이트 프로젝트입니다.<br>
@@ -117,7 +117,7 @@ export default {
       },
       portfolio3: {
         title: "portfolio",
-        day: "2023.12.01. ~2023.12.02.",
+        day: "2023.12.",
         projectImgUrl: "portfolio.png",
         description: `
         포트폴리오를 위해 만든 정적 웹사이트입니다. <br>
@@ -129,7 +129,7 @@ export default {
       },
       portfolio4: {
         title: "Goguryeo Hotel",
-        day:"2023.07.14. ~ 2023.07.25. (12일) By Team",
+        day:"2023.07. By Team",
         projectImgUrl: 'goryeo.png',
         description: `
           <p>
@@ -192,7 +192,6 @@ export default {
   height: 40%;
   margin: 10px;
    background-color: rgb(255, 234, 0);
-
 }
 
 .project:hover {
@@ -210,7 +209,6 @@ export default {
         margin-top :50px;
       }
       .project {
-  
   width: 100%;
   height: 40%;
 

@@ -44,10 +44,6 @@ div.portfolio-content{
     box-sizing: border-box;
 }
 
-
-
-
-
 span{
     font-weight: 600;
     font-size: 23px;

@@ -4,8 +4,8 @@
     <div class="app-menu">
       <span class="app-menu-item" @click="scrollToContent('home')">Home</span>
         <span class="app-menu-item" @click="scrollToContent('aboutme')">About me</span>
-      <span class="app-menu-item" @click="scrollToContent('skill')">Skills</span>
-      <span class="app-menu-item" @click="scrollToContent('project')">Projects</span>
+        <span class="app-menu-item" @click="scrollToContent('project')">Projects</span>
+        <span class="app-menu-item" @click="scrollToContent('skill')">Skills</span>
     </div>
   </div>
 </template>
