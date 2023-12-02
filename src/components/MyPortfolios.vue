@@ -40,7 +40,10 @@
 <style scoped>
 div.portfolio-content{
     text-align: center;
+    width: 100%;
+    height: 100%;
     
+       box-sizing: border-box;
 }
 span{
     font-weight: 600;
@@ -55,9 +58,10 @@ div.description{
     /* align-items: center; */
     margin-left: 5%;
     /* font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; */
-     max-height: 500px; /* 원하는 최대 높이로 설정 */
-    overflow: hidden;
+     /* max-height: 500px; 원하는 최대 높이로 설정 */
+    
     line-height: 1.5;
+    
 }
 
 

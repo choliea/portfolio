@@ -50,4 +50,18 @@ export default {
   text-decoration: none;
   font-size: 1.5em;
 }
+@media only screen and (max-width: 600px) {
+    .app-title {
+  font-size: 1rem;
+  
+}
+
+
+.app-menu-item {
+  /* color: white; */
+  
+  font-size: 0.5em;
+}
+    }
+
 </style>

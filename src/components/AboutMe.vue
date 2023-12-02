@@ -82,24 +82,41 @@
 
 .aboutme {
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
     align-items: center;
     padding-left: 10%;
+    justify-content: center;
 }
 .profText,
 .profile {
-    display: inline-block;
-    vertical-align: bottom;
+    flex: 1 1 50%;
+    /* display: inline-block;
+    vertical-align: bottom; */
+    
 }
+@media only screen and (max-width: 600px) {
+      ul {
+        font-size: 15px;
+        padding: 0;
+      }
+      .aboutme{
+        padding:5px;
+      }
+      .profText {
+        padding: 0;
+      }
+    }
 .profText {
     padding-left: 3%;
 }
 .profile {
-    width: 310px;
+    max-width: 310px;
     height: 420px; 
     border-radius: 70%;
     overflow: hidden;
     background: #BDBDBD;
+    margin-right: 10px;
     
 }
 .profImg {

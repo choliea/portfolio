@@ -5,11 +5,10 @@
     @close="changeState"
     :url="this.modalUrl"
   ></ReadmeModal>
+  <div id="home">
   <AppBar
     @scrollToContent="scrollToContent"
-    :style="{ backgroundColor: appbarBackgroundColor, color: appbarTextColor }"
-  ></AppBar>
-  <div id="home">
+    :style="{ backgroundColor: appbarBackgroundColor, color: appbarTextColor }"></AppBar>
     <div id="hometext">
       <header>최유강's Web Developer Portfolio</header>
       <p id="homep">
@@ -184,6 +183,14 @@ export default {
 <style>
 @import "assets/css/fonts.css";
 
+@media only screen and (max-width: 600px) {
+      #hometext > #homep {
+        font-size: 13px;
+      }
+      #hometext header {
+        margin-top :50px;
+      }
+    }
 body {
   margin: 0;
   font-family: "baemin";
@@ -200,6 +207,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 .project > .title {
   font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
@@ -245,18 +253,17 @@ ul {
   background-color: #00b890;
   color: beige;
 }
-#project {
-  /* background-color: #F5DDB0; */
-}
+
 .project {
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   /* margin-left: 10%; */
   /* margin-right: 10%; */
   border-radius: 20px;
-  width: 40%;
+  width: 45%;
   height: 40%;
-  margin: 50px;
+  margin: 10px;
    background-color: rgb(255, 234, 0);
+
 }
 
 .project:hover {
