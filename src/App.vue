@@ -45,13 +45,13 @@
         class="project"
         :portfolio="portfolio3"
         @openReadme="changeState"
-      ></MyPortfolios> -->
+      ></MyPortfolios>
       <MyPortfolios
         id="goryeo"
         class="project"
         :portfolio="portfolio4"
         @openReadme="changeState"
-      ></MyPortfolios>
+      ></MyPortfolios> -->
       </div>
     </div>
     <div class="contents" id="skill">
